@@ -15,7 +15,7 @@ struct ActionResult {
 
 	bool bBackgroundPaletteIndexSet = false;
 	uint8_t nBackgroundPaletteIndex = 0;
-	DrawMode eDrawModeAlt = DrawMode::TRANS_75;
+	DrawMode eDrawModeAlt = DrawMode::TRANS_50;
 	DrawMode eDrawModeHover = DrawMode::TRANS_75;
 
 	bool bBorderPaletteIndexSet = false;
