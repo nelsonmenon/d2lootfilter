@@ -379,7 +379,7 @@ void __stdcall ItemFilter::DrawDebugInfo(Unit* pItem, uint32_t nXStart, uint32_t
 	auto lineHeight = 15;
 	auto y = nYStart;
 
-	D2GFX_DrawSolidRectEx(xStart, y, xEnd, y + (lines.size() * lineHeight), 0x0, DrawMode::TRANS_25);
+	D2GFX_DrawSolidRectEx(xStart, y, xEnd, y + (lines.size() * lineHeight), 0x0, DrawMode::TRANS_75);
 	for (auto& line : lines) {
 		D2WIN_D2DrawText(line.c_str(), xStart + pad, y += lineHeight, TextColor::GOLD, TRUE);
 	}
